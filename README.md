@@ -81,7 +81,3 @@ Add a database instead of in-memory storage.
 Implement authentication.
 
 Deploy the project on Vercel & Railway.
-
-📜 License
-
-This project is for educational purposes. Feel free to use and improve it!
