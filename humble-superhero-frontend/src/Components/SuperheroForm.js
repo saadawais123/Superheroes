@@ -29,31 +29,36 @@ export default function SuperheroForm({ fetchSuperheroes }) {
 
   return (
     <div>
-      <input
-        className="border p-2 w-full"
-        placeholder="Name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
-      />
-      <input
-        className="border p-2 w-full"
-        placeholder="Superpower"
-        value={superpower}
-        onChange={(e) => setSuperpower(e.target.value)}
-      />
-      <input
-        className="border p-2 w-full"
-        type="number"
-        placeholder="Humility (1-10)"
-        value={humility}
-        onChange={(e) => setHumility(Number(e.target.value))}
-      />
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded"
-        onClick={addSuperhero}
-      >
-        Add Superhero
-      </button>
+      <form onSubmit={addSuperhero}>
+        <input
+          required
+          className="border p-2 w-full"
+          placeholder="Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+        <input
+          required
+          className="border p-2 w-full"
+          placeholder="Superpower"
+          value={superpower}
+          onChange={(e) => setSuperpower(e.target.value)}
+        />
+        <input
+          required
+          className="border p-2 w-full"
+          type="number"
+          placeholder="Humility (1-10)"
+          value={humility}
+          onChange={(e) => setHumility(Number(e.target.value))}
+        />
+        <button
+          className="bg-blue-500 text-white px-4 py-2 rounded"
+          type="submit"
+        >
+          Add Superhero
+        </button>
+      </form>
     </div>
   );
 }

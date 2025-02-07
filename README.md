@@ -50,7 +50,7 @@ View a list of superheroes, sorted by humility score.
 
 Backend built with NestJS.
 
-Frontend built with React & TailwindCSS.
+Frontend built with React.
 
 🔗 API Endpoints
 
@@ -64,6 +64,16 @@ GET /superheroes
 
 Returns superheroes sorted by humility score.
 
+🤝 Collaboration & Improvements
+
+If working with a team:
+
+Use GitHub issues for feature tracking.
+
+Write clear commit messages.
+
+Follow code reviews before merging changes.
+
 ⏳ If I Had More Time...
 
 Add a database instead of in-memory storage.
@@ -71,3 +81,7 @@ Add a database instead of in-memory storage.
 Implement authentication.
 
 Deploy the project on Vercel & Railway.
+
+📜 License
+
+This project is for educational purposes. Feel free to use and improve it!
