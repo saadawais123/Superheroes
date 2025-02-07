@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+.DS_Store
+
+
+humble-superhero-api/node_modules/
+humble-superhero-frontend/node_modules/
+
+humble-superhero-api/dist/
+humble-superhero-frontend/build/
+
+
+humble-superhero-api/.env
+humble-superhero-frontend/.env
